@@ -5,7 +5,7 @@ import "fmt"
 func main() {
 	// type data boolean
 	var boolean bool = true
-	var boolean2 = false
+	boolean2 := false
 	bool3 := true
 	fmt.Println("Boolean : ", boolean)
 	fmt.Println("Boolean 2 : ", boolean2)
