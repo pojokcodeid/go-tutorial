@@ -5,6 +5,8 @@ import (
 
 	"20-package-custom/matematika"
 	mtk "20-package-custom/matematika" // contoh import dengan alias
+	// Blank import: hanya menjalankan init(), tidak memakai nama
+	_ "net/http/pprof"
 )
 
 func main() {
